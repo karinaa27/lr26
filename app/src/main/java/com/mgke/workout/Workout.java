@@ -12,22 +12,19 @@ public class Workout {
                     "5 Pull-ups\n10 Push-ups\n15 Squats"),
             new Workout("Strength and Length",
                     "500 meter run\n21 x 1.5 pood kettleball swing\n21 x pull-ups")};
-
     private Workout(String name, String description) {
         this.name = name;
         this.description = description;
     }
-
     public String getDescription() {
         return description;
     }
-
     public String getName() {
         return name;
     }
-
     public String toString() {
         return this.name;
     }
 }
+
 
